@@ -1,0 +1,36 @@
+.flexContainer {
+    display:flex;
+    border: 2px blue;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.flexUnit {
+    background-color: grey;
+    text-align: center;
+    font-size: 30px;
+    margin: 10;
+    padding: 20px;
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+
+}
+
+
+.gallery img:hover{
+    transform: scale(.8)
+}
+
+
+
+/* justify-content X axis
+align items y axis */
+
+
+/* only goes one level deep have to do display-flex to parent doesnn't extend to grandchild
+*/
+
+/* flex-wrap wraps to size of parent container */
